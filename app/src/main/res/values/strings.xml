@@ -22,8 +22,10 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
-
-    <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
+   <!--menu opciones-->
+    <string name="galeria">Galeria</string>
+    <string name="tomarfoto">Toma una fotografía</string>
+    <string name="cerrarsesion">Cerrar Sesión</string>
+    <!--tomar foto-->
+    <string name="etiquetafoto">Para tomar una fotografía, seleccione el siguiente ícono</string>
 </resources>

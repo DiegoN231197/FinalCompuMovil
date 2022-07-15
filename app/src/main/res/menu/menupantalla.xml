@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/igaleria"
+        android:title="@string/galeria" />
+    <item
+        android:id="@+id/ifoto"
+        android:title="@string/tomarfoto" />
+    <item
+        android:id="@+id/icerrars"
+        android:title="@string/cerrarsesion" />
+</menu>

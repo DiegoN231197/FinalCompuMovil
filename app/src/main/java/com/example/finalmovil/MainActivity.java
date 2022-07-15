@@ -18,8 +18,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
     public void Ingresar(View view){
-        Intent intent = new Intent(this, Menuprincipal.class);
+        Intent intent = new Intent(this, prueba.class);
         startActivity(intent);
     }
+
 
 }
