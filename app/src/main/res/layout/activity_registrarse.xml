@@ -123,6 +123,7 @@
         android:layout_height="40dp"
         android:background="@drawable/design_borde_editext"
         android:text="@string/registrarse"
+        android:onClick="registrarse"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

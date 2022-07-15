@@ -37,7 +37,7 @@
         app:srcCompat="@android:drawable/ic_menu_camera" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/fototomada"
         android:layout_width="233dp"
         android:layout_height="255dp"
         app:layout_constraintBottom_toBottomOf="parent"

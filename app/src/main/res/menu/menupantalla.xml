@@ -10,5 +10,6 @@
         android:title="@string/tomarfoto" />
     <item
         android:id="@+id/icerrars"
-        android:title="@string/cerrarsesion" />
+        android:title="@string/cerrarsesion"
+        />
 </menu>

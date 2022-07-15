@@ -20,7 +20,7 @@ import java.util.Date;
 
 public class prueba extends AppCompatActivity {
 
-    ImageView imageView;
+    ImageView fototomada;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,9 +40,15 @@ public class prueba extends AppCompatActivity {
         }else if(id == R.id.ifoto){
             Toast.makeText(this,"Tomar fotografía",Toast.LENGTH_SHORT).show();
         }else if(id == R.id.icerrars){
-            Toast.makeText(this,"Opción3",Toast.LENGTH_SHORT).show();
+            Toast.makeText(this,"Sesión cerrada",Toast.LENGTH_SHORT).show();
+            cerrar(null);
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    public void cerrar(View view){
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
     }
 
     static final int TOMAR_FOTO=1;
@@ -57,7 +63,7 @@ public class prueba extends AppCompatActivity {
         if (requestCode == TOMAR_FOTO && resultCode == RESULT_OK) {
             Bundle extras = data.getExtras();
             Bitmap bitmap1 = (Bitmap) extras.get("data");
-            imageView.setImageBitmap(bitmap1);
+            fototomada.setImageBitmap(bitmap1);
             try {
                 FileOutputStream fos = openFileOutput(guardarfoto(), Context.MODE_PRIVATE);
                 bitmap1.compress(Bitmap.CompressFormat.JPEG,100,fos);
