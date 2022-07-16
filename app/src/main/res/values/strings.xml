@@ -28,4 +28,5 @@
     <string name="cerrarsesion">Cerrar Sesión</string>
     <!--tomar foto-->
     <string name="etiquetafoto">Para tomar una fotografía, seleccione el siguiente ícono</string>
+    <string name="img">img</string>
 </resources>
