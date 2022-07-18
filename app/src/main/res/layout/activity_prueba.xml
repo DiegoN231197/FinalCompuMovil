@@ -15,7 +15,7 @@
         android:textColor="@color/white"
         android:textSize="20dp"
         android:textAlignment="center"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton"
+        app:layout_constraintBottom_toTopOf="@+id/btncamara"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -23,27 +23,27 @@
         app:layout_constraintVertical_bias="0.709" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/btncamara"
         android:layout_width="69dp"
         android:layout_height="73dp"
-        android:onClick="tomarfoto"
         android:background="@drawable/design_borde_editext"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.246"
+        app:layout_constraintVertical_bias="0.122"
         app:srcCompat="@android:drawable/ic_menu_camera" />
 
     <ImageView
         android:id="@+id/fototomada"
-        android:layout_width="233dp"
-        android:layout_height="255dp"
+        android:layout_width="321dp"
+        android:layout_height="419dp"
+        android:layout_marginBottom="60dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton"
-        app:layout_constraintVertical_bias="0.503"
+        app:layout_constraintTop_toBottomOf="@+id/btncamara"
+        app:layout_constraintVertical_bias="0.564"
         tools:srcCompat="@tools:sample/avatars" />
 </androidx.constraintlayout.widget.ConstraintLayout>
